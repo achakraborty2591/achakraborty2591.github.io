@@ -1,0 +1,60 @@
+---
+---
+
+/* Import the main Chirpy theme styles */
+@import 'main{%- if jekyll.environment == "production" -%}.bundle{%- endif -%}';
+
+/* Define custom fonts */
+@font-face {
+  font-family: 'MesloLGS NF';
+  src: url('/assets/fonts/meslo-nerd-font-patched/MesloLGS NF Regular.ttf')
+    format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'MesloLGS NF';
+  src: url('/assets/fonts/meslo-nerd-font-patched/MesloLGS NF Bold.ttf')
+    format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'MesloLGS NF';
+  src: url('/assets/fonts/meslo-nerd-font-patched/MesloLGS NF Italic.ttf')
+    format('truetype');
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'MesloLGS NF';
+  src: url('/assets/fonts/meslo-nerd-font-patched/MesloLGS NF Bold Italic.ttf')
+    format('truetype');
+  font-weight: bold;
+  font-style: italic;
+}
+
+/* Apply custom fonts */
+body {
+  font-family: 'MesloLGS NF', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'MesloLGS NF', sans-serif;
+}
+
+.navbar {
+  font-family: 'MesloLGS NF', sans-serif;
+}
+
+.footer {
+  font-family: 'MesloLGS NF', sans-serif;
+}
