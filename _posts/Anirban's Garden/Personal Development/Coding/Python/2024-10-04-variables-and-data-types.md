@@ -25,6 +25,5 @@ Just by looking at the contents in this file we can clearly say that the purpose
 ---
 
 Let us breakdown the entire the process in small steps - 
-
 1. In order to execute the python code we need to use the terminal in Mac and use the command - **python3 <path_to_the_code>/hello_world_001.py**.
 2. 
